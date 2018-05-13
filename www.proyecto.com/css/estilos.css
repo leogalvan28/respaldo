@@ -1,0 +1,91 @@
+/*p{
+	border: 2px solid black;
+	background: orange;
+	display:block;
+	margin: 50px 0px;
+}
+
+
+p#ghost{
+	display: none;
+}
+
+
+
+.padre{
+	width: 250px;
+	height: 250px;
+	margin: 25px;
+	background: orange;
+	position: relative;
+}
+
+
+
+.hijo1{
+	width: 50px;
+	height: 50px;
+	background: red;
+	position: absolute;
+	top: 10px;
+	
+	
+}
+
+.hijo2{
+	width: 100px;
+	height: 100px;
+	background: green;
+	
+
+}
+
+
+p{
+	position: relative;
+}
+p:before{
+	content: "este es un saludo";
+	position: relative;
+	top: 50px;
+	left: 150px;
+}
+ 
+
+
+a#link1:link{
+	color:green;
+}
+
+a#link2:visited{
+	color:red;
+}
+
+a#link3:link{
+	color:yellow;
+}
+
+
+
+p:hover{
+	color:green;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+span:active{
+	color:green;
+}
+
+input:focus{
+	border-radius: 20px;
+}
+*/
+
+div *{
+	border: solid 2px black;
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+	background: white;
+}

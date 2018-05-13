@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEE;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+}
+
+header .portada {
+    background-image: url('perro2.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+header .perfil {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+}
+
+header .perfil img {
+    height: 200px;
+    border: 5px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 0.5em;
+}
+
+header {
+    position: relative;
+}
+
+section {
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section .post {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+section .post figure {
+    width: 60px;
+    display: inline-block;
+}
+
+section .post figure img {
+    width: 100%;
+}
+
+section .post .datos_post {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+section .post .datos_post .tiempo {
+    font-size: 0.8em;
+}
+
+section .post .datos_post .texto_post {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0277BD;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+aside {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    body {
+        text-align: center;
+    }
+    header {
+        margin: 0 100px;
+    }
+    header .perfil {
+        top: 40%;
+        text-align: left;
+    }
+    header .perfil img {
+        height: 150px;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    header .perfil figcaption {
+        display: inline-block;
+        color: white;
+        vertical-align: middle;
+        text-shadow: 1px 1px red;
+        margin-left: 10px;
+    }
+    section {
+        margin-top: 30px;
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        text-align: left;
+    }
+    aside {
+        display: inline-block;
+        background: white;
+        border: 1px solid #000;
+        padding: 10px;
+        vertical-align: top;
+        margin-top: 30px;
+        width: 20%;
+        text-align: left;
+    }
+    aside p i {
+        margin-right: 10px;
+    }
+}
